@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="1" author="nikita">
+        <sql>
+            CREATE TABLE IF NOT EXISTS client (
+            user_id VARCHAR(255) NOT NULL,
+            user_name VARCHAR(255) NOT NULL,
+            password VARCHAR(255) NOT NULL,
+            user_role VARCHAR(255) NOT NULL,
+            PRIMARY KEY (user_id)
+            );
+        </sql>
+    </changeSet>
+
+    <changeSet id="2" author="nikita">
+        <sql>
+            CREATE TABLE IF NOT EXISTS t_transaction(
+            transaction_id VARCHAR(255) NOT NULL,
+            transaction_sum DECIMAL(8,2) NOT NULL,
+            card_sender VARCHAR(255) NOT NULL,
+            card_recipient VARCHAR(255) NOT NULL,
+            PRIMARY KEY (transaction_id)
+            );
+        </sql>
+    </changeSet>
+
+    <changeSet id="3" author="nikita">
+        <sql>
+            CREATE TABLE IF NOT EXISTS t_credit(
+            credit_id VARCHAR(255) NOT NULL,
+            sum_credit VARCHAR(255) NOT NULL,
+            credit_percent VARCHAR(255) NOT NULL,
+            PRIMARY KEY (credit_id)
+            );
+        </sql>
+    </changeSet>
+
+    <changeSet id="4" author="nikita">
+        <sql>
+            CREATE TABLE IF NOT EXISTS t_cards(
+            card_id VARCHAR(255) NOT NULL,
+            card_name VARCHAR(255) NOT NULL,
+            card_number VARCHAR(255) NOT NULL,
+            card_balance DECIMAL(8,2) NOT NULL,
+            card_cvv VARCHAR(255)  NOT NULL,
+            PRIMARY KEY (card_id)
+            );
+        </sql>
+    </changeSet>
+
+    <changeSet id="5" author="nikita">
+        <sql>
+            CREATE TABLE IF NOT EXISTS t_account(
+            account_id VARCHAR(255) NOT NULL,
+            account_number VARCHAR(255) NOT NULL,
+            account_currency VARCHAR(255) NOT NULL,
+            PRIMARY KEY (account_id)
+            );
+        </sql>
+    </changeSet>
+
+
+
+    <changeSet id="6" author="nikita">
+        <sql>
+            INSERT INTO client VALUES ('aaaabbbbccccddddeeeeffff00000001', 'admin', 'admin', 'ROLE_ADMIN');
+        </sql>
+    </changeSet>
+
+    <changeSet id="7" author="nikita">
+        <sql>
+            CREATE TABLE IF NOT EXISTS t_news(
+            news_id int NOT NULL,
+            title VARCHAR(255) NOT NULL,
+            headline VARCHAR(255) NOT NULL,
+            PRIMARY KEY (news_id)
+            );
+        </sql>
+    </changeSet>
+
+    <changeSet id="8" author="nikita">
+        <sql>
+            insert into t_news (news_id, title, headline) values
+            (1,'news1','headline1'),
+            (2,'news2','headline2'),
+            (3,'news3','headline3'),
+            (4,'news4','headline4'),
+            (5,'news5','headline5'),
+            (6,'news6','headline6'),
+            (7,'news7','headline7'),
+            (8,'news8','headline8'),
+            (9,'news9','headline9'),
+            (10,'news10','headline10'),
+            (11,'news11','headline11');
+        </sql>
+    </changeSet>
+
+
+
+
+</databaseChangeLog>
