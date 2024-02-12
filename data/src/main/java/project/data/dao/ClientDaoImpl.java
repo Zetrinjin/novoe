@@ -56,7 +56,7 @@ public class ClientDaoImpl implements ClientDao{
     @Override
     public List<Client> findByUserName(String username) {
         return sessionFactory.getCurrentSession()
-                .createQuery("from User au where au.username=:username", Client.class)
+                .createQuery("from Client where username= :username", Client.class)
                 .setParameter("username", username)
                 .list();
     }
@@ -64,7 +64,7 @@ public class ClientDaoImpl implements ClientDao{
     @Override
     public Client findByUserNameOne(String username) {
         Session session = sessionFactory.getCurrentSession();
-        String hql = "FROM User where username = :username";
+        String hql = "FROM Client where username = :username";
         Query<Client> query = session.createQuery(hql,Client.class);
         query.setParameter("username", username);
         return query.uniqueResult();

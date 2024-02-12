@@ -4,77 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c705d78-6c46-4c61-a158-0109f5d21a82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/DataConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/dao/CardsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/dao/CardsDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/dao/ClientDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/dao/ClientDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/dao/NewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/dao/NewsDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/model/CardsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/model/ClientDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/model/NewsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/model/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/pojo/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/pojo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/project/data/pojo/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/resources/changelog-master.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/resources/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/resources/liquibase.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/project/service/service/CardsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/project/service/service/CardsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/project/service/service/ClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/project/service/service/ClientServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/project/service/service/NewsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/project/service/service/NewsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/project/service/service/ServiceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/project/web/webCon/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/project/web/webCon/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/project/web/webCon/NewsWin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/project/web/webCon/NewsWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/project/web/webCon/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/project/web/webCon/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/project/web/webCon/WebInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/META-INF/services/jakarta.servlet.ServletContainerInitializer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/cards.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/cheto.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/news.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="7c705d78-6c46-4c61-a158-0109f5d21a82" name="Changes" comment="novoe">
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/project/service/security/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/project/web/security/SecurityInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/project/web/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/project/data/dao/ClientDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/project/data/dao/ClientDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -89,17 +44,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/git_work2/novoe/untitled/data/src",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/git_work2/novoe/untitled/data/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\git_work2\novoe\untitled\data\src" />
@@ -120,6 +75,18 @@
       <option name="presentableId" value="Default" />
       <updated>1707668780414</updated>
     </task>
+    <task id="LOCAL-00001" summary="novoe">
+      <created>1707670593956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707670593956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="novoe" />
+    <option name="LAST_COMMIT_MESSAGE" value="novoe" />
   </component>
 </project>
