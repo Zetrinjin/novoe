@@ -34,7 +34,7 @@ public class WebSecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         //Configure Spring security filters
         http
-                //.csrf(AbstractHttpConfigurer::disable)
+                .csrf(AbstractHttpConfigurer::disable)
                 .formLogin(Customizer.withDefaults())
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers("/", "/home","/cards","/news","/registration",
@@ -43,7 +43,11 @@ public class WebSecurityConfig {
                         .requestMatchers("/logout").authenticated()
                         .requestMatchers("/add**").hasRole("ADMIN")
                         .anyRequest().authenticated()
+
                 )
+                .exceptionHandling(exceptionHandling -> exceptionHandling
+                        .accessDeniedHandler((request, response, accessDeniedException) ->
+                                accessDeniedException.printStackTrace()))
                 .logout(Customizer.withDefaults())
 
         ;
