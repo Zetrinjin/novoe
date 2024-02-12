@@ -47,7 +47,7 @@ public class WebSecurityConfig {
                 )
                 .exceptionHandling(exceptionHandling -> exceptionHandling
                         .accessDeniedHandler((request, response, accessDeniedException) ->
-                                accessDeniedException.printStackTrace()))
+                                accessDeniedException.printStackTrace())
                 .logout(Customizer.withDefaults())
 
         ;
