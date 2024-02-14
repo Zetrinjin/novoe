@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c705d78-6c46-4c61-a158-0109f5d21a82" name="Changes" comment="novoe 1.1">
+      <change afterPath="$PROJECT_DIR$/data/src/test/java/project/data/DataConfigurationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/test/java/project/data/DataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/test/java/project/data/SessionFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/test/java/project/data/dao/ClientDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/test/java/project/data/dao/NewsDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/test/resources/test.hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/test/resources/test.liquibase.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/project/data/dao/ClientDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/project/data/dao/ClientDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/project/service/security/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/project/service/security/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/java/project/web/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/project/web/security/WebSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -43,8 +54,10 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/git_work2/novoe/untitled/data/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/git_work2/gd2_project/bank/untitled&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -60,6 +73,66 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\git_work2\novoe\untitled" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="project.data" />
+      <recent name="project.data.dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NewsDaoImplTest.getAllNews">
+    <configuration name="ClientDaoImplTest.findByUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.data.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.data.dao" />
+      <option name="MAIN_CLASS_NAME" value="project.data.dao.ClientDaoImplTest" />
+      <option name="METHOD_NAME" value="findByUserName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsDaoImplTest.getAllNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.data.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.data.dao" />
+      <option name="MAIN_CLASS_NAME" value="project.data.dao.NewsDaoImplTest" />
+      <option name="METHOD_NAME" value="getAllNews" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NewsDaoImplTest.getAllNews" />
+        <item itemvalue="JUnit.ClientDaoImplTest.findByUserName" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707764279376</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="novoe 1.1">
+      <created>1707765526314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707765526314</updated>
+    </task>
+    <task id="LOCAL-00004" summary="novoe 1.1">
+      <created>1707765573466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707765573466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,21 +189,5 @@
     <MESSAGE value="novoe" />
     <MESSAGE value="novoe 1.1" />
     <option name="LAST_COMMIT_MESSAGE" value="novoe 1.1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/project/web/security/WebSecurityConfig.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/project/web/security/WebSecurityConfig.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

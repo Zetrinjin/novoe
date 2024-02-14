@@ -96,7 +96,7 @@
                             <propertyFile>src/main/resources/liquibase.properties</propertyFile>
                         </configuration>
                     </execution>
-                    <!--<execution>
+                    <execution>
                         <id>update_test</id>
                         <phase>process-resources</phase>
                         <goals>
@@ -106,7 +106,7 @@
                             <propertyFile>src/test/resources/test.liquibase.properties</propertyFile>
                             <changeLogFile>src/main/resources/changelog-master.xml</changeLogFile>
                         </configuration>
-                    </execution>-->
+                    </execution>
                 </executions>
             </plugin>
         </plugins>

@@ -50,7 +50,7 @@ public class ClientDaoImpl implements ClientDao{
     @Override
     public List<Client> getAllUsers() {
         Session session = sessionFactory.getCurrentSession();
-        return session.createQuery("FROM User", Client.class).getResultList();
+        return session.createQuery("FROM Client", Client.class).getResultList();
     }
 
     @Override
