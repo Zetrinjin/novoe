@@ -79,4 +79,15 @@ public class NewsDaoImpl implements NewsDao{
 
         return newsDto;
     }
+
+    @Override
+    public void createNews(NewsDto newsDto) {
+        Session session = sessionFactory.getCurrentSession();
+        News news= new News(
+                newsDto.getId(),
+                newsDto.getTitle(),
+                newsDto.getHeadline()
+        );
+        session.persist(news);
+    }
 }

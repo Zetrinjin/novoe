@@ -50,12 +50,12 @@ public class ClientDaoImplTest {
     @Test
     public void findByUserName() {
         //Given
-        String adminUserName = "qwe";
+        String adminUserName = "admin";
         //When
         List<Client> results = clientDao.findByUserName(adminUserName);
         //Then
         assertEquals(1, results.size());
-        assertEquals("123", results.get(0).getPassword());
+        assertEquals("admin", results.get(0).getPassword());
     }
 
     @Test

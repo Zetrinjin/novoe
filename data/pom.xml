@@ -8,8 +8,7 @@
     </parent>
     <artifactId>data</artifactId>
 
-    <name>data Maven Webapp</name>
-    <url>http://maven.apache.org</url>
+
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -73,11 +72,6 @@
 
     <build>
         <plugins>
-            <!-- <plugin>
-                 <groupId>org.apache.maven.plugins</groupId>
-                 <artifactId>maven-war-plugin</artifactId>
-                 <version>3.4.0</version>
-             </plugin>-->
             <plugin>
                 <groupId>org.liquibase</groupId>
                 <artifactId>liquibase-maven-plugin</artifactId>

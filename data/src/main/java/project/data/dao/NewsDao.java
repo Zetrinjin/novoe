@@ -20,4 +20,6 @@ public interface NewsDao {
     List<NewsDto> getListNews(List<News> news);
 
     NewsDto toDto(News news);
+
+    void createNews(NewsDto newsDto);
 }
