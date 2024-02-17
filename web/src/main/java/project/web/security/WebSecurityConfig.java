@@ -37,7 +37,7 @@ public class WebSecurityConfig {
                 .csrf(AbstractHttpConfigurer::disable)
                 .formLogin(Customizer.withDefaults())
                 .authorizeHttpRequests(authorize -> authorize
-                        .requestMatchers("/", "/home","/cards","/news","/registration",
+                        .requestMatchers("/", "/home"/*,"/cards"*/,"/news","/registration",
                                 "/static/**", "/WEB-INF/jsp/**").permitAll()
                         .requestMatchers("/login", "/api/**").anonymous()
                         .requestMatchers("/logout").authenticated()
@@ -54,7 +54,7 @@ public class WebSecurityConfig {
         return http.build();
     }
 
-    @Bean
+    /*@Bean
     public UserDetailsService userDetailsService() {
 
         UserDetails user = User
@@ -68,7 +68,7 @@ public class WebSecurityConfig {
                 .roles("ADMIN", "USER")
                 .build();
         return new InMemoryUserDetailsManager(user, admin);
-    }
+    }*/
 
     @SuppressWarnings({"unused"})
     @Bean

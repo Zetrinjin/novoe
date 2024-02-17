@@ -5,6 +5,7 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import org.springframework.web.servlet.DispatcherServlet;
 import project.data.DataConfiguration;
 import project.service.service.ServiceConfiguration;
+import project.web.security.WebSecurityConfig;
 
 
 import java.util.Set;
@@ -19,7 +20,7 @@ public class WebInitializer implements ServletContainerInitializer {
         context.register(WebConfiguration.class);
         context.register(ServiceConfiguration.class);
         context.register(DataConfiguration.class);
-        //context.register(WebSecurityConfig.class);
+        context.register(WebSecurityConfig.class);
         //context.register(RestConfiguration.class);
 
         // Init servlet for Spring MVC

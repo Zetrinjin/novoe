@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Import;
 import project.data.DataConfiguration;
 
 @Configuration
-@ComponentScan(basePackages = "project.service.service")
+@ComponentScan(basePackages = "project.service")
 @Import(DataConfiguration.class)
 public class ServiceConfiguration {
 
