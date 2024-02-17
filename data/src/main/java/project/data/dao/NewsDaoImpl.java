@@ -47,7 +47,7 @@ public class NewsDaoImpl implements NewsDao{
     @Override
     public int getTotalCount() {
         Session session = sessionFactory.getCurrentSession();
-        Long count = session.createQuery("SELECT count(*) FROM news", Long.class)
+        Long count = session.createQuery("SELECT count(*) FROM News", Long.class)
                 .uniqueResult();
 
         return count.intValue();

@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c705d78-6c46-4c61-a158-0109f5d21a82" name="Changes" comment="novoe 1.2">
+    <list default="true" id="7c705d78-6c46-4c61-a158-0109f5d21a82" name="Changes" comment="novoe 1.3">
+      <change afterPath="$PROJECT_DIR$/service/src/test/java/project/service/security/AuthenticationServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/test/java/project/service/service/ServiceConfigurationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/project/data/dao/NewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/project/data/dao/NewsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/project/data/dao/ClientDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/project/data/dao/ClientDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/src/main/java/project/data/dao/NewsDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/project/data/dao/NewsDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/resources/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/resources/changelog-master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/test/java/project/data/dao/ClientDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/test/java/project/data/dao/ClientDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/test/java/project/data/dao/NewsDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/test/java/project/data/dao/NewsDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/test/resources/test.hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/test/resources/test.hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/cheto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/cheto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/news.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/news.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -46,19 +49,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/git_work2/gd2_homework/home4/Task4",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/git_work2/gd2_homework/home4/Task4&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\git_work2\novoe\untitled\data\src" />
@@ -73,11 +76,29 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="project.service.security" />
+      <recent name="project.service.service" />
       <recent name="project.data" />
       <recent name="project.data.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NewsDaoImplTest.getAllNews">
+  <component name="RunManager" selected="JUnit.AuthenticationServiceTest.loadUserByUsername">
+    <configuration name="AuthenticationServiceTest.loadUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.service.security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.service.security" />
+      <option name="MAIN_CLASS_NAME" value="project.service.security.AuthenticationServiceTest" />
+      <option name="METHOD_NAME" value="loadUserByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientDaoImplTest.findByUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data" />
       <extension name="coverage">
@@ -156,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuthenticationServiceTest.loadUserByUsername" />
         <item itemvalue="JUnit.NewsDaoImplTest.getAllNews" />
         <item itemvalue="JUnit.NewsDaoImplTest" />
         <item itemvalue="JUnit.ClientDaoImplTest.findByUserName" />
@@ -207,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707922065553</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="novoe 1.3">
+      <created>1708011629350</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708011629350</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +254,7 @@
     <MESSAGE value="novoe" />
     <MESSAGE value="novoe 1.1" />
     <MESSAGE value="novoe 1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="novoe 1.2" />
+    <MESSAGE value="novoe 1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="novoe 1.3" />
   </component>
 </project>

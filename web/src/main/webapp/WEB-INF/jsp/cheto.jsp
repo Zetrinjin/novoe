@@ -24,3 +24,39 @@
         <c:if test="${currentPage lt totalPages}">
             <td><a href="news?page=${currentPage + 1}">Next</a></td>
         </c:if>
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
+<%@taglib prefix="c" uri="jakarta.tags.core"%>
+
+        <c:forEach var="news" items="${newsList}" >
+                    <tr>
+                        <td> <c:out value="${news.id}" />${news.id}</td>
+                        <td><c:out value="${news.title" />}</td>
+                        <td><c:out value="${news.headline}" /></td>
+
+                    </tr>
+                </c:forEach>
+
+
+
+
+                 <table border="1" >
+                        <thead>
+                        <tr>
+                            <th>News ID</th>
+                            <th>News title</th>
+                            <th>News headline</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr th:each="news : ${newsList}">
+                                <td th:text="${news.id}">  </td>
+                                <td th:text="${news.title}"></td>
+                                <td th:text="${news.headline}"></td>
+
+
+                            </tr>
+                        </tbody>
+                    </table>
